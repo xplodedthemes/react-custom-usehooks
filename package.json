@@ -21,8 +21,18 @@
     "url": "https://github.com/xplodedthemes/react-custom-usehooks/issues"
   },
   "homepage": "https://github.com/xplodedthemes/react-custom-usehooks#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-core": "6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
   "dependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "@babel/core": "7.9.0",
+    "@babel/polyfill": "^7.10.4"
   }
 }
