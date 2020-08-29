@@ -1,10 +1,11 @@
 {
   "name": "react-custom-usehooks",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "A React Custom Hooks Collection",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "start": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -21,18 +22,25 @@
     "url": "https://github.com/xplodedthemes/react-custom-usehooks/issues"
   },
   "homepage": "https://github.com/xplodedthemes/react-custom-usehooks#readme",
-  "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "babel-core": "6.26.3",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
   },
   "dependencies": {
+    "react": "^16.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
     "react": "^16.13.1",
-    "@babel/core": "7.9.0",
-    "@babel/polyfill": "^7.10.4"
-  }
+    "rollup": "^1.32.1",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3"
+  },
+  "files": [
+    "dist"
+  ]
 }
