@@ -1,0 +1,28 @@
+{
+  "name": "react-custom-usehooks",
+  "version": "1.0.0",
+  "description": "A React Custom Hooks Collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xplodedthemes/react-custom-usehooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "custom"
+  ],
+  "author": "Georges Haddad",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/xplodedthemes/react-custom-usehooks/issues"
+  },
+  "homepage": "https://github.com/xplodedthemes/react-custom-usehooks#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
