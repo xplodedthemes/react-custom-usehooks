@@ -1,6 +1,6 @@
 {
   "name": "react-custom-usehooks",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "A React Custom Hooks Collection",
   "main": "index.js",
   "scripts": {
